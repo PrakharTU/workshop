@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
@@ -12,99 +14,178 @@
 </head>
 
 <body>
-   <section id=intro>
-        <div class="overlay">
-        </div>
+    <!-- intro-->
+    <section id="intro">
+        <div class="overlay"></div>
+        <div class="overlay-fix container ta-c">
+            <header>
+                <div>
+                    <i class="fa fa-github icon"></i>
+                    <div class="m-t12">
+                        <h3>Web Developer</h3>
+                    </div>
+                </div>
 
-        <div class="container overlay-fix t-c">
-            <header class="flex-row">
-                <div class="flex-1 flex-row">
-                    <i class="fa fa-github icon"></i>
-                    <h4>Web Developer</h4>
+                <div>
+                    <i class="fa fa-university icon"></i>
+                    <div class="m-t12">
+                        <h3>TIET</h3>
+                    </div>
                 </div>
-                <div class="flex-1 flex-row">
-                    <i class="fa fa-github icon"></i>
-                    <h4 class="m-t20">Web Developer</h4>
-                </div>
-                <div class="flex-1 flex-row">
-                    <i class="fa fa-github icon"></i>
-                    <h4>Web Developer</h4>
+
+                <div>
+                    <i class="fa fa-map-marker icon"></i>
+                    <div>
+                        <h3>Patiala</h3>
+                        <h5>India</h5>
+                    </div>
                 </div>
             </header>
-            <img src="https://www.prakhargupta.in/img/prakhar.jpg" id="header-image"/>
 
-            <h1 class="name">
-               Prakhar Gupta
-            </h1>
+            <div class="header-img">
+                <img src="https://www.prakhargupta.in/img/prakhar.jpg" alt="Prakhar Gupta">
+            </div>
+
+            <div class=name>
+                <h1>
+                    Prakhar Gupta
+                </h1>
+            </div>
+
+            <a href="#" alt="resume" class=resume>
+                My Resume
+            </a>
+
         </div>
 
-        
-   </section>
+    </section>
 
-
-   <section>
-       <div class="container flex-row">
-           <div class="flex-13 heading">
-                <h1>About Me</h1>
-           </div>
-           <div class="flex-23">
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique sit aperiam dicta quam dolorum minima! Doloribus asperiores ea ad quae, iusto, corrupti quas cum distinctio eos aliquam minima nulla repudiandae.
-           </div>
-       </div>
-   </section>
-
-   <section>
-    <div class="container flex-row">
-        <div class="flex-13 heading">
-             <h1>Education  </h1>
-        </div>
-        <div class="flex-23 education-wrapper">
-            <div class="education flex-row">
-                <div class="flex-23">
-                    <h1>BE. COE</h1>
-                    <h3>Thapar</h3>
-                    <p>cgpa 7/10</p>
+    <!-- about me and Education-->  <!--10 min-->
+    <section class="section">
+        <div class="container">
+            <div class="flex-row">
+                <div class="heading width-13">
+                    <h1>
+                        <b>About Me</b>
+                    </h1>
                 </div>
-
-                <div class="flex-13" style="text-align: right;">
-                    2020-2024
+                <div class="width-23">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore ipsa voluptates
+                        praesentium veritatis expedita facere architecto voluptas quasi hic rerum earum ad obcaecati
+                        quibusdam id commodi, impedit labore enim.
                 </div>
             </div>
-            <div  class="education">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ad illum nam minima nulla sunt dolores. Dolorum, facilis possimus, voluptate pariatur consectetur animi sequi velit id sunt, iste minima quidem!
-            </div>
+        </div>
+    </section>
 
-            <div  class="education">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ad illum nam minima nulla sunt dolores. Dolorum, facilis possimus, voluptate pariatur consectetur animi sequi velit id sunt, iste minima quidem!
+    <section class="section">
+        <div class="container">
+            <div class="flex-row">
+                <div class="heading width-13">
+                    <h1>
+                        <b>Education</b>
+                    </h1>
+                </div>
+                <div class="width-23 education-wrapper">
+                    <div class="education b-30 flex-row">
+                        <div class="width-23">
+                            <h3>Bachelor of Engineering, Computer Engineering</h3>
+                            <h5 class="font-yellow">Thapar Institute of Engineering & Technology, Patiala</h5>
+                            <p class="grade">CGPA: 9.6/10</p>
+                        </div>
+                        <div class="width-13 align-right">2020-2024</div>
+                    </div>
+
+
+                    <div class="education b-30 flex-row">
+                        <div class="width-23">
+                            <h3>Senior Secondary</h3>
+                            <h5 class="font-yellow">XYZ School, Patiala</h5>
+                            <p class="grade">CGPA: 9.6/10</p>
+                        </div>
+                        <div class="width-13 align-right">2019-2020</div>
+                    </div>
+
+                    <div class="education flex-row">
+                        <div class="width-23">
+                            <h3>Secondary</h3>
+                            <h5 class="font-yellow">XYZ School, Patiala</h5>
+                            <p class="grade">CGPA: 9.6/10</p>
+                        </div>
+                        <div class="width-13 align-right">2017-2018</div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="project">
-    <div class="container">
-        <div class="flex-13 heading">
-            <h1>Project</h1>
-       </div>
-
-       <div class="project-card flex-row">
-            <img src="https://www.prakhargupta.in/projects/pika/logo.png"/>
-            <div>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis voluptatum quae dolores tempore hic quod necessitatibus, pariatur, deleniti, veritatis rem accusantium molestias ex. Nulla aperiam dolorem nihil perspiciatis omnis at!
-                <ul style="margin-left:30px; margin-top:10px">
-                    <li> project desc 1</li>
-                    <li> project desc 1</li>
-
-                    <li> project desc 1</li>
-
-                    <li> project desc 1</li>
-
-                </ul>
+    <section class="section projects">
+        <div class="container">
+            <div class="heading">
+                <h1>
+                    <b>Projects</b>
+                </h1>
             </div>
-       </div>
-    </div>
-</section>
 
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="https://www.prakhargupta.in/projects/pika/logo.png" width="100%" alt="">
+                </div>
+                <div class="project-content flex-23">
+                    <div class="flex-row">
+                        <div class="width-23">
+                            <h3>Pika</h3>
+                            <h5 class="font-yellow">A companion robot</h5>
+                            <p class="grade">React, Python</p>
+                            <ul class="project-desc">
+                                <li>project description 1</li>
+                                <li>project description 2</li>
+                                <li>project description 3</li>
+                                <li>project description 4</li>
+                            </ul>
+                        </div>
+                        <div class="width-13 align-right">Jan 2019 - Dec 2019</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="flex-row">
+                <div class="heading width-13">
+                    <h1>
+                        <b>Contact</b>
+                    </h1>
+                </div>
+                <div class="width-23">
+                    <div>
+                        <h1 class="b-30 ">
+                            Let's Get In Touch
+                        </h1>
+                        <div class="b-30 contact-item">
+                            <i class="fa fa-phone"></i>
+                            <h4>+91-1112223334</h4>
+                        </div>
+
+                        <div class="b-30 contact-item">
+                            <i class="fa fa-envelope"></i>
+                            <h4>prakhar@gmail.com</h4>
+                        </div>
+
+                        <div class="b-30 contact-item">
+                            <i class="fa fa-map-marker"></i>
+                            <h4>TIET, Patiala</h4><br>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 
 </html>
